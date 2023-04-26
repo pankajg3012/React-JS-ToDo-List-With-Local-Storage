@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.parent{position: relative;
+    background-color: darkorchid;
+    border: 1px solid red;
+    border-radius: 2rem;
+    width:800px;
+    min-height: 700px;
+    display:flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin:25px auto;
+    flex-direction: column;
+}
+
+h1{  background-color: red;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    position: absolute;
+    left:400px;
+    color: purple;
+    margin-top:5px;
+}
+#feild[type="text"]{font-size: 1rem;
+padding-left:10px;
+}
+
+#feild{width: 80%;
+    border-radius: 0.5rem;
+    height:30px;
+    margin:70px 0;
+}
+::placeholder{
+    color: tomato;
+}
+#click{background-color:red;
+    border-radius: 0.5rem;
+    height:2rem;
+    width:2rem;
+    font-size: 30px;
+    font-weight: 400;
+    margin:70px 0;
+}
+#click:hover{
+    background-color: black;
+    color:white;
+}
+ul{border:1px solid red;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.child{width:inherit;
+    display: flex;
+    justify-content: center;
+    /* margin: 10px auto; */
+}
+
+
+
+.Additem{
+    width:80%;
+    justify-content: flex-end;
+    margin: -78px 66px;
+}
+ol{
+    list-style: none;
+}
+li{    display: flex;
+    justify-content: space-between;
+    border:1px solid red;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 0 10px;
+    margin: 28px 5px;
+}
+
+
+.Icon{
+margin-top: 10px;
+}
