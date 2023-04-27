@@ -30,7 +30,7 @@ h1{  background-color: red;
 padding-left:10px;
 }
 
-#feild{width: 80%;
+#feild{width: 80vw;
     border-radius: 0.5rem;
     height:30px;
     margin:70px 0;
@@ -73,15 +73,13 @@ ol{
 }
 li{    display: flex;
     justify-content: space-between;
-    border:1px solid red;
+    font-family: sans-serif;
     border-radius: 8px;
     background-color: black;
     color: white;
+    box-shadow: 0 8px 6px -6px white;
     padding: 0 10px;
     margin: 28px 5px;
 }
 
 
-.Icon{
-margin-top: 10px;
-}
